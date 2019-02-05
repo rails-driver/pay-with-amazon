@@ -20,10 +20,16 @@
   This library is platform agnostic, and may be used in any checkout flow to
   make Amazon Payments easier to implement. To learn how use this library with
   your Recurly site, please [Recurly's documentation][recurly-docs] to get started.
+  
+## Install
+
+  yarn add **https://github.com/rails-driver/pay-with-amazon.git**
 
 ## Usage
 
-  Simply include `pay-with-amazon.min.js` in your document head.
+  Simply include `pay-with-amazon.min.js` in your document head. 
+  
+  Another way you can import AmazonPay from 'pay-with-amazon' if you install this with yarn
 
   **Important!** This **must** be included in the `<head>` of your document.
   [[1](#1)]
