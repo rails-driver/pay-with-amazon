@@ -8,7 +8,10 @@
     "type": "git",
     "url": "git://github.com/recurly/pay-with-amazon.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "component-bind": "component/bind",
+    "component-emitter": "component/emitter"
+  },
   "devDependencies": {
     "duo": "0.x",
     "uglify-js": "2.4.x"
