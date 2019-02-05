@@ -4,8 +4,8 @@
  * Dependencies
  */
 
-var Emitter = require('component/emitter');
-var bind = require('component/bind');
+var Emitter = require('component-emitter');
+var bind = require('component-bind');
 
 /**
  * Exports
